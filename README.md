@@ -1,4 +1,4 @@
-# MAHEncryptor - <a href="https://play.google.com/store/apps/developer?id=MobAppHome">MobAppHome</a>  advertisment library 
+# MAHEncryptor - <a href="https://play.google.com/store/apps/developer?id=MobAppHome">MobAppHome</a>  encryptor library 
 
 
 #Contribution
