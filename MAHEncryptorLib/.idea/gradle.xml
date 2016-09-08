@@ -8,15 +8,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/mah-encryptor-android-sample" />
+            <option value="$PROJECT_DIR$/mah-encryptor-java-sample" />
             <option value="$PROJECT_DIR$/mah-encryptor-lib" />
-            <option value="$PROJECT_DIR$/mah-encryptor-lib-sample" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/mah-encryptor-android-sample" />
+            <option value="$PROJECT_DIR$/mah-encryptor-java-sample" />
             <option value="$PROJECT_DIR$/mah-encryptor-lib" />
-            <option value="$PROJECT_DIR$/mah-encryptor-lib-sample" />
           </set>
         </option>
       </GradleProjectSettings>

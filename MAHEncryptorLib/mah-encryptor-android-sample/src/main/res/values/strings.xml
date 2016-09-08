@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MAHEncryptorLib</string>
+
+
+    <string name="txt_about">This is MAHEnchryptorLib android sample application.
+        \nIt demonstrates simple action enchrypt string and dechrypt it to original case</string>
+    <string name="txt_dechrypt">Dechrypt</string>
+    <string name="txt_enchrypt">Enchrypt</string>
+    <string name="txt_dechrypted_str">Dechrypted string</string>
+    <string name="txt_enchrypted_str">Orginal string</string>
+    <string name="txt_key_phrase">Key string:</string>
+    <string name="txt_caution">Key phrase has to be minimum 18 character</string>
+
+
+</resources>

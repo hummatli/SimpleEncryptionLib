@@ -1,1 +1,1 @@
-include ':mah-encryptor-lib-sample', ':mah-encryptor-lib'
+include ':mah-encryptor-android-sample', ':mah-encryptor-lib', ':mah-encryptor-java-sample'
