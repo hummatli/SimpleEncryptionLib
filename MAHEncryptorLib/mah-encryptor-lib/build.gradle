@@ -1,8 +1,36 @@
 apply plugin: 'java'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'mah-encryptor-lib'
+
+    publishedGroupId = 'com.mobapphome.library'
+    libraryName = 'MAHEncryptorLib'
+    artifact = 'mah-encryptor-lib'
+
+    libraryDescription = 'MAHEncrptorLib is library for encrypting string and decrypting it back. ' +
+            'It can be used on Android and raw Java projects'
+
+    siteUrl = 'https://github.com/hummatli/MAHEncryptorLib'
+    gitUrl = 'https://github.com/hummatli/MAHEncryptorLib.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'hummatli'
+    developerName = 'Sattar Hummatli'
+    developerEmail = 'settarxan@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
     sourceCompatibility = 1.7
     targetCompatibility = 1.7
 }
+
+apply from: 'conf_for_maven/installv1.gradle'
+apply from: 'conf_for_maven/bintrayv1.gradle'

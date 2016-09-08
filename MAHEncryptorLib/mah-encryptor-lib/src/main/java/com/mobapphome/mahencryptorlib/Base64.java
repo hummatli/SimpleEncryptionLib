@@ -305,7 +305,7 @@ public class Base64 {
          *
          * <p> This method first encodes all input bytes into a base64 encoded
          * byte array and then constructs a new String by using the encoded byte
-         * array and the {@link StandardCharsets#ISO_8859_1
+         * array and the {StandardCharsets#ISO_8859_1
          * ISO-8859-1} charset.
          *
          * <p> In other words, an invocation of this method has exactly the same

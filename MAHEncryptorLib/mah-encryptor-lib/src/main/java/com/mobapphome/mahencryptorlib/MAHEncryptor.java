@@ -24,7 +24,8 @@ public class MAHEncryptor {
     Base64.Encoder base64encoder;
     Base64.Decoder base64decoder;
 
-    public MAHEncryptor(String yourSecretKeyPhrase) throws UnsupportedEncodingException, InvalidKeyException, NoSuchAlgorithmException, InvalidKeySpecException {
+
+    private MAHEncryptor(String yourSecretKeyPhrase) throws UnsupportedEncodingException, InvalidKeyException, NoSuchAlgorithmException, InvalidKeySpecException {
         DESKeySpec keySpec = new DESKeySpec(yourSecretKeyPhrase.getBytes("UTF8"), 10);
         SecretKeyFactory keyFactory = SecretKeyFactory.getInstance("DES");
         key = keyFactory.generateSecret(keySpec);
@@ -32,10 +33,24 @@ public class MAHEncryptor {
         base64decoder = Base64.getDecoder();
     }
 
+    /**
+     * Initializer of MAHEncryptor
+     * @param yourSecretKeyPhrase
+     * @return MAHEncryptor object or throughs exception
+     * @throws InvalidKeySpecException
+     * @throws NoSuchAlgorithmException
+     * @throws InvalidKeyException
+     * @throws UnsupportedEncodingException
+     */
     public static MAHEncryptor newInstance(String yourSecretKeyPhrase) throws InvalidKeySpecException, NoSuchAlgorithmException, InvalidKeyException, UnsupportedEncodingException {
         return new MAHEncryptor(yourSecretKeyPhrase);
     }
 
+    /**
+     * Initializer of MAHEncryptor
+     * @param yourSecretKeyPhrase
+     * @return MAHEncryptor object or null if throughs exception
+     */
     public static MAHEncryptor newInstanceOrRetunNull(String yourSecretKeyPhrase){
         try {
             return new MAHEncryptor(yourSecretKeyPhrase);
@@ -46,10 +61,21 @@ public class MAHEncryptor {
     }
 
 
-    public String encode(String plainTextPassword) throws UnsupportedEncodingException, NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException {
+    /**
+     * Encode method
+     * @param plainText
+     * @return Encoded string
+     * @throws UnsupportedEncodingException
+     * @throws NoSuchPaddingException
+     * @throws NoSuchAlgorithmException
+     * @throws InvalidKeyException
+     * @throws BadPaddingException
+     * @throws IllegalBlockSizeException
+     */
+    public String encode(String plainText) throws UnsupportedEncodingException, NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException {
 
-        // ENCODE plainTextPassword String
-        byte[] cleartext = plainTextPassword.getBytes("UTF8");
+        // ENCODE plainText String
+        byte[] cleartext = plainText.getBytes("UTF8");
 
         Cipher cipher = Cipher.getInstance("DES"); // cipher is not thread safe
         cipher.init(Cipher.ENCRYPT_MODE, key);
@@ -57,28 +83,49 @@ public class MAHEncryptor {
         // now you can store it
     }
 
-    public String encodeOrReturnNull(String plainTextPassword)  {
+    /**
+     * Encode method
+     * @param plainText
+     * @return Encoded string or null if throughs exception
+     */
+    public String encodeOrReturnNull(String plainText)  {
         try {
-            return encode(plainTextPassword);
+            return encode(plainText);
         } catch (Exception e) {
             e.printStackTrace();
             return null;
         }
     }
 
-    public String decode(String encryptedPwd) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException, UnsupportedEncodingException {
+    /**
+     * Decode method
+     * @param encryptedText
+     * @return Decoded string
+     * @throws NoSuchPaddingException
+     * @throws NoSuchAlgorithmException
+     * @throws InvalidKeyException
+     * @throws BadPaddingException
+     * @throws IllegalBlockSizeException
+     * @throws UnsupportedEncodingException
+     */
+    public String decode(String encryptedText) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException, UnsupportedEncodingException {
 
-        // DECODE encryptedPwd String
-        byte[] encrypedPwdBytes = base64decoder.decode(encryptedPwd);
+        // DECODE encryptedText String
+        byte[] encrypedPwdBytes = base64decoder.decode(encryptedText);
 
         Cipher cipher = Cipher.getInstance("DES");// cipher is not thread safe
         cipher.init(Cipher.DECRYPT_MODE, key);
         return new String((cipher.doFinal(encrypedPwdBytes)), "UTF-8");
     }
 
-    public String decodeOrReturnNull(String encryptedPwd) {
+    /**
+     * Decode method
+     * @param encryptedText
+     * @return Decoded string or null if throughs exception
+     */
+    public String decodeOrReturnNull(String encryptedText) {
         try {
-            return decode(encryptedPwd);
+            return decode(encryptedText);
         } catch (Exception e) {
             e.printStackTrace();
             return null;
