@@ -11,6 +11,7 @@ Library has build on IDE `Android Studio` and binaries have added to `jcenter()`
 #Images
 <img src="https://github.com/hummatli/MAHEncryptorLib/blob/master/imgs/main_activity.png" width="200px"/>
 
+
 #Library structure
 Library has `MAHEncryptor` class. It has three main static methods:
 * `MAHEncryptor.newInstance("key")`
@@ -29,6 +30,7 @@ Look following sample how to use library:
         String decrypted = mahEncryptor.decode("4Vi86K/JL9gKclQahacrKLrEZL6/0vOpS4yPVm1hSLhhDsCMJTyd4A==");
 ```
 
+
 #Installation manual
 To import library to you project add following lines to project's `build.gradle` file. The last stable version is `1.0.0`
 
@@ -38,8 +40,10 @@ To import library to you project add following lines to project's `build.gradle`
 	}
 ```
 
+
 #End
 Thats all. If you have any probelm with setting library please let me know. Write to settarxan@gmail.com. I will help.
+
 
 #Contribution
 * Fork it
@@ -49,8 +53,10 @@ Thats all. If you have any probelm with setting library please let me know. Writ
 * Create new Pull Request
 * Star it
 
+
 #Developed By
 Sattar Hummatli - settarxan@gmail.com
+
 
 #License
 Copyright 2015  - <a href="https://www.linkedin.com/in/hummatli">Sattar Hummatli</a>   
