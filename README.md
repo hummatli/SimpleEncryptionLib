@@ -1,6 +1,6 @@
 # MAHEncryptorLibrary - <a href="https://play.google.com/store/apps/developer?id=MobAppHome">MobAppHome</a>  encryptor library
 
-Library for encryption and decryption strings on android apps and pc java applications.  
+Library for encryption and decryption strings on Android apps and pc Java applications.
 Library has build on IDE `Android Studio` and binaries have added to `jcenter()`  `maven` repository.
 <br>You can check  <a href="https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics">jCenter() download statistics</a> on this link - https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics
 
