@@ -27,7 +27,7 @@ Look following sample how to use library:
 * For decrytion
 ```
 	MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("This is sample SecretKeyPhrase");
-        String decrypted = mahEncryptor.decode("4Vi86K/JL9gKclQahacrKLrEZL6/0vOpS4yPVm1hSLhhDsCMJTyd4A==");
+	String decrypted = mahEncryptor.decode("4Vi86K/JL9gKclQahacrKLrEZL6/0vOpS4yPVm1hSLhhDsCMJTyd4A==");
 ```
 
 
