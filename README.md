@@ -19,12 +19,12 @@ Library has `MAHEncryptor` class. It has three main static methods:
 * `MAHEncryptor.decode("str for decrytion")`
 
 Look following sample how to use library:
-* For encrytion
+* For encryption
 ```
 	MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("This is sample SecretKeyPhrase");
 	String encrypted = mahEncryptor.encode("This is MAHEncryptorLib java sample");
 ```
-* For decrytion
+* For decryption
 ```
 	MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("This is sample SecretKeyPhrase");
 	String decrypted = mahEncryptor.decode("4Vi86K/JL9gKclQahacrKLrEZL6/0vOpS4yPVm1hSLhhDsCMJTyd4A==");
