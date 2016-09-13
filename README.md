@@ -12,7 +12,7 @@ Library has build on IDE `Android Studio` and binaries have added to `jcenter()`
 <img src="https://github.com/hummatli/MAHEncryptorLib/blob/master/imgs/main_activity.png" width="200px"/>
 
 
-#Library structure
+#Library structure and sample
 Library has `MAHEncryptor` class. It has three main static methods:
 * `MAHEncryptor.newInstance("key")`
 * `MAHEncryptor.encode("str for encrytion")`
