@@ -36,7 +36,7 @@ To import library to you project add following lines to project's `build.gradle`
 
 ```
 	dependencies {
-    		compile 'com.mobapphome.library:mah-encryptor-lib:1.0.0'
+    		compile 'com.mobapphome.library:mah-encryptor-lib:1.0.1'
 	}
 ```
 
