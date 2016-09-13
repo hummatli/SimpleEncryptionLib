@@ -14,7 +14,7 @@ ext {
     siteUrl = 'https://github.com/hummatli/MAHEncryptorLib'
     gitUrl = 'https://github.com/hummatli/MAHEncryptorLib.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'hummatli'
     developerName = 'Sattar Hummatli'
