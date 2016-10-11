@@ -7,10 +7,10 @@ Library has build on IDE `Android Studio` and binaries have added to `jcenter()`
 
 #PlayStore
 <a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib">MAHEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
-<br><a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib"><img src="https://github.com/hummatli/MAHEncryptorLib/blob/master/imgs/google-play-badge.png" width="200px"/></a> 
+<br><a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib"><img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/google-play-badge.png" width="200px"/></a> 
 
 #Images
-<img src="https://github.com/hummatli/MAHEncryptorLib/blob/master/imgs/main_activity.png" width="200px"/>
+<img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/main_activity.png" width="200px"/>
 
 
 #Library structure and sample
