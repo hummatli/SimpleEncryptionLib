@@ -57,7 +57,7 @@ Thats all. If you have any probelm with setting library please let me know. Writ
 
 
 #Developed By
-Sattar Hummatli - settarxan@gmail.com
+[Sattar Hummatli](https://www.linkedin.com/in/hummatli) - settarxan@gmail.com
 
 #Other libraries by developer
 * [![MAHAndroidUpdater](https://img.shields.io/badge/GitHUB-MAHAndroidUpdater-green.svg)](https://github.com/hummatli/MAHAndroidUpdater) - Android update checker library. Library for notifing update information to installed android apps on android device.  
