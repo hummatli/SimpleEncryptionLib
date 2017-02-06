@@ -5,7 +5,9 @@
 
 Library for encryption and decryption strings on Android apps and pc Java applications.
 Library has build on IDE `Android Studio` and binaries have added to `jcenter()`  `maven` repository.
-<br>You can check  <a href="https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics">jCenter() download statistics</a> on this link - https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics
+<br>You can check  [jCenter() download statistics](https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics) on this [link](https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics)
+
+* [jCenter() download statistics](https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics)
 
 <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/green_star.png" width="20px"/>  _**Don't forget to start the protect to support us**_
 
