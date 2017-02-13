@@ -13,14 +13,7 @@
             <option value="$PROJECT_DIR$/mah-encryptor-lib" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/mah-encryptor-android-sample" />
-            <option value="$PROJECT_DIR$/mah-encryptor-java-sample" />
-            <option value="$PROJECT_DIR$/mah-encryptor-lib" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
