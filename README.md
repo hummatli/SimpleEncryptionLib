@@ -10,7 +10,7 @@
 
 <p align="center">Free, open source, third party Android library and PC library for encryption and decryption strings on Android apps and pc Java applications. Check out the <a href="https://github.com/hummatli/MAHEncryptorLib/wiki">wiki</a>.</p>
 
-<p align="center">
+<p align="left">
 <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/main_activity.png" width="200px"/>
 </p>
 <!--[ ![Download](https://api.bintray.com/packages/hummatli/maven/mah-encryptor-lib/images/download.svg) ](https://bintray.com/hummatli/maven/mah-encryptor-lib/_latestVersion) 
