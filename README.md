@@ -1,7 +1,20 @@
-# MAHEncryptorLibrary - <a href="https://play.google.com/store/apps/developer?id=Sattar+Hummatli+-+MobAppHome">MobAppHome</a>  encryptor library  
+<h1 align="center">MAHEncryptorLibrary</h1>
+<h4 align="center">Android Library</h4>
 
-[ ![Download](https://api.bintray.com/packages/hummatli/maven/mah-encryptor-lib/images/download.svg) ](https://bintray.com/hummatli/maven/mah-encryptor-lib/_latestVersion) 
-[![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15) [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](http://www.apache.org/licenses/LICENSE-2.0) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MAHEncryptorLibrary-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4497)
+<p align="center">
+  <a target="_blank" href="https://bintray.com/hummatli/maven/mah-encryptor-lib/_latestVersion"><img src="https://api.bintray.com/packages/hummatli/maven/mah-encryptor-lib/images/download.svg"></a>
+  <a target="_blank" href="https://android-arsenal.com/api?level=15"><img src="https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat"></a>
+  <a target="_blank" href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000"></a>
+  <a target="_blank" href="http://android-arsenal.com/details/1/4497"><img src="https://img.shields.io/badge/Android%20Arsenal-MAHEncryptorLibrary-brightgreen.svg?style=flat" /></a>
+</p>
+
+<p align="center">Free, open source, third party Android library and PC library for encryption and decryption strings on Android apps and pc Java applications. Check out the <a href="https://github.com/hummatli/MAHEncryptorLib/wiki">wiki</a>.</p>
+
+<p align="left">
+<img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/main_activity.png" width="200px"/>
+</p>
+<!--[ ![Download](https://api.bintray.com/packages/hummatli/maven/mah-encryptor-lib/images/download.svg) ](https://bintray.com/hummatli/maven/mah-encryptor-lib/_latestVersion) 
+[![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15) [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](http://www.apache.org/licenses/LICENSE-2.0) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MAHEncryptorLibrary-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4497)-->
 
 Library for encryption and decryption strings on Android apps and pc Java applications.
 Library has build on IDE `Android Studio` and binaries have added to `jcenter()`  `maven` repository.
@@ -14,10 +27,6 @@ Library has build on IDE `Android Studio` and binaries have added to `jcenter()`
 #PlayStore
 <a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib">MAHEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
 <br><a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib"><img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/google-play-badge.png" height="90px"/></a> <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/mahencryptor_google_play_url_qr_code.jpg" height="100px"/>
-
-#Images
-<img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/main_activity.png" width="200px"/>
-
 
 #Library structure and sample
 Library has `MAHEncryptor` class. It has three main static methods:
