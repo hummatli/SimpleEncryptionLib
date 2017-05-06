@@ -24,11 +24,11 @@ Library has build on IDE `Android Studio` and binaries have added to `jcenter()`
 
 <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/green_star.png" width="20px"/>  _**Don't forget to start the protect to support us**_
 
-#PlayStore
+### PlayStore
 <a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib">MAHEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
 <br><a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib"><img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/google-play-badge.png" height="90px"/></a> <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/mahencryptor_google_play_url_qr_code.jpg" height="100px"/>
 
-#Library structure and sample
+### Library structure and sample
 Library has `MAHEncryptor` class. It has three main static methods:
 * `MAHEncryptor.newInstance("key")`
 * `MAHEncryptor.encode("str for encrytion")`
@@ -47,7 +47,7 @@ Look following sample how to use library:
 ```
 
 
-#Installation manual
+### Installation manual
 To import library to you project add following lines to project's `build.gradle` file. The last stable version is `1.0.0`
 
 ```
@@ -57,11 +57,11 @@ To import library to you project add following lines to project's `build.gradle`
 ```
 
 
-#End
+### End
 Thats all. If you have any probelm with setting library please let me know. Write to settarxan@gmail.com. I will help.
 
 
-#Contribution
+### Contribution
 * Fork it
 * Create your feature branch (git checkout -b my-new-feature)
 * Commit your changes (git commit -am 'Added some feature')
@@ -70,14 +70,14 @@ Thats all. If you have any probelm with setting library please let me know. Writ
 * Star it
 
 
-#Developed By
+### Developed By
 [Sattar Hummatli](https://www.linkedin.com/in/hummatli) - settarxan@gmail.com
 
-#Other libraries by developer
+### Other libraries by developer
 * [![MAHAndroidUpdater](https://img.shields.io/badge/GitHUB-MAHAndroidUpdater-green.svg)](https://github.com/hummatli/MAHAndroidUpdater) - Android update checker library. Library for notifing update information to installed android apps on android device.  
 * [![MAHAds](https://img.shields.io/badge/GitHUB-MAHAds-green.svg)](https://github.com/hummatli/MAHAds) - Library for advertisement own apps through your other apps.
 
-#License
+### License
 Copyright 2015  - <a href="https://www.linkedin.com/in/hummatli">Sattar Hummatli</a>   
 
 Licensed under the Apache License, Version 2.0 (the "License");
