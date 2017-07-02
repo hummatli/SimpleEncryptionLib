@@ -14,7 +14,7 @@ import com.mobapphome.mahencryptorlib.Constants;
 import com.mobapphome.mahencryptorlib.MAHEncryptor;
 import com.mobapphome.mahencryptorlib.R;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class SampleActivityJava extends AppCompatActivity implements View.OnClickListener {
 
     EditText editTextOriginal;
     EditText editTextEnchrypted;
@@ -25,12 +25,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //This block is only in Java sample---------------
+        {
+            findViewById(R.id.btnOpenJavaSample).setVisibility(View.GONE);
+            setTitle(getString(R.string.title_java_sample));
+        }
+
         editTextKeyPhrase = (EditText) findViewById(R.id.etKeyPhrase);
         editTextOriginal = (EditText) findViewById(R.id.etOriginalTxt);
         editTextEnchrypted = (EditText) findViewById(R.id.etEnchryptedTxt);
 
 
-        ImageView imageView = (ImageView) findViewById(R.id.ivMAHForkMeOnGithub);
+        ImageView imageView = (ImageView) findViewById(R.id.ivForkMeOnGithub);
         Drawable forkMeImg = getResources().getDrawable(R.drawable.forkme_green);
         // setting the opacity (alpha)
         forkMeImg.setAlpha(180);
@@ -45,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
 
-        if (view.getId() == R.id.ivMAHForkMeOnGithub) {
+        if (view.getId() == R.id.ivForkMeOnGithub) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.MAH_ENCHRIPTOR_GITHUB_LINK));
             startActivity(browserIntent);
         } else if (view.getId() == R.id.btnEnchrypt

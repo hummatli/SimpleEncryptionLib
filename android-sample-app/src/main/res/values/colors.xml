@@ -5,4 +5,5 @@
     <color name="colorAccent">#057f78</color>
     <color name="colorCaptionText">#01050f</color>
     <color name="colorCaution">#FF0000</color>
+    <color name="colorAccentSecond">#FF4081</color>
 </resources>

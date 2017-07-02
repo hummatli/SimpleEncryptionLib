@@ -6,7 +6,7 @@ import com.mobapphome.mahencryptorlib.MAHEncryptor;
  * This is MAHEncryptorLib sample created test encryptor lib on non-Android java programs.
  * Created by Sattar Hummatli on 8/5/16.
  */
-public class MAHEncryptorJavaSample {
+public class SampleEncryptorJavaSample {
     static public void main(String[] arg) {
         //Your key phrase mus be at least 18 character other through exeption
         MAHEncryptor mahEncryptor = MAHEncryptor.newInstanceOrRetunNull("This is sample SecretKeyPhrase");
