@@ -8,9 +8,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/mah-encryptor-android-sample" />
-            <option value="$PROJECT_DIR$/mah-encryptor-java-sample" />
-            <option value="$PROJECT_DIR$/mah-encryptor-lib" />
+            <option value="$PROJECT_DIR$/android-sample-app" />
+            <option value="$PROJECT_DIR$/jvm-sample-app" />
+            <option value="$PROJECT_DIR$/library" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
