@@ -8,7 +8,7 @@
   <a target="_blank" href="http://android-arsenal.com/details/1/4497"><img src="https://img.shields.io/badge/Android%20Arsenal-MAHEncryptorLibrary-brightgreen.svg?style=flat" /></a>
 </p>
 
-<p align="center">Free, open source, third party Android library and PC library for encryption and decryption strings on Android apps and pc Java applications. Check out the <a href="https://github.com/hummatli/MAHEncryptorLib/wiki">wiki</a>.</p>
+<p align="center">Free, open source, third party Android library and PC library for encryption and decryption strings on Android apps and pc Java applications.  Library is 100% compatible with Kotlin and Java applications. Contains sample in both Kotlin and Java. Check out the <a href="https://github.com/hummatli/MAHEncryptorLib/wiki">wiki</a>.</p>
 
 <p align="left">
 <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/main_activity.png" width="200px"/>
@@ -16,7 +16,8 @@
 <!--[ ![Download](https://api.bintray.com/packages/hummatli/maven/mah-encryptor-lib/images/download.svg) ](https://bintray.com/hummatli/maven/mah-encryptor-lib/_latestVersion) 
 [![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15) [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](http://www.apache.org/licenses/LICENSE-2.0) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MAHEncryptorLibrary-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4497)-->
 
-Library for encryption and decryption strings on Android apps and pc Java applications.
+Library for encryption and decryption strings on Android apps and pc Java applications. Library is 100% compatible with Kotlin and Java applications. Contains sample in both Kotlin and Java. Created by Java language in Android Studio.
+
 Library has build on IDE `Android Studio` and binaries have added to `jcenter()`  `maven` repository.
 <br>You can check  [jCenter() download statistics](https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics) on this [link](https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics)
 
