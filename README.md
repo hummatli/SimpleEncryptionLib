@@ -36,17 +36,27 @@ Library has `MAHEncryptor` class. It has three main static methods:
 * `MAHEncryptor.decode("str for decrytion")`
 
 Look following sample how to use library:
-* For encryption
-```java
-MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("This is sample SecretKeyPhrase");
-String encrypted = mahEncryptor.encode("This is MAHEncryptorLib java sample");
+> Encryption in Kotlin:
+```kotlin
+val mahEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
+val encrypted = mahEncryptor!!.encodeOrReturnNull("Text to encode")
 ```
-* For decryption
+> Encryption in Java:
 ```java
-MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("This is sample SecretKeyPhrase");
-String decrypted = mahEncryptor.decode("4Vi86K/JL9gKclQahacrKLrEZL6/0vOpS4yPVm1hSLhhDsCMJTyd4A==");
+MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
+String encrypted = mahEncryptor.encode("Text to encode");
 ```
 
+> Decryption in Kotlin:
+```kotlin
+val mahEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
+val decrypted = mahEncryptor.decode("Vm1hSLhhDsCMJTyd4A==")
+```
+> Decryption in Java:
+```java
+MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
+String decrypted = mahEncryptor.decode("Vm1hSLhhDsCMJTyd4A==");
+```
 
 ### Installation manual
 To import library to you project add following lines to project's `build.gradle` file. The last stable version is `1.0.0`
