@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MAHEncryptorLib.iml" filepath="$PROJECT_DIR$/MAHEncryptorLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MAHEncryptorLib.iml" filepath="$PROJECT_DIR$/MAHEncryptorLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleEncryptorLib.iml" filepath="$PROJECT_DIR$/SimpleEncryptorLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-sample-app/android-sample-app.iml" filepath="$PROJECT_DIR$/android-sample-app/android-sample-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jvm-sample-app/jvm-sample-app.iml" filepath="$PROJECT_DIR$/jvm-sample-app/jvm-sample-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-sample-app/java-sample-app.iml" filepath="$PROJECT_DIR$/java-sample-app/java-sample-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
   </component>

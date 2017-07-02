@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">MAHEncryptorLib - Sample</string>
+    <string name="app_name">SimpleEncryptorLib - Sample</string>
 
-
-    <string name="txt_about">This is MAHEnchryptorLib android sample application.
+    <string name="txt_about">This is SimpleEnchryptorLib android sample application.
         \nIt demonstrates simple action enchrypt string and dechrypt it to original case</string>
     <string name="txt_dechrypt">Dechrypt</string>
     <string name="txt_enchrypt">Enchrypt</string>

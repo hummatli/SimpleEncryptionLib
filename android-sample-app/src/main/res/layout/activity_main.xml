@@ -55,7 +55,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
                     android:paddingStart="10dp"
-                    android:text="This is sample enchrypt text"
+                    android:text="Sample enchryption keyphrase"
                     android:textSize="15sp" />
             </LinearLayout>
 
