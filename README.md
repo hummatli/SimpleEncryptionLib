@@ -16,7 +16,7 @@
 <!--[ ![Download](https://api.bintray.com/packages/hummatli/maven/mah-encryptor-lib/images/download.svg) ](https://bintray.com/hummatli/maven/mah-encryptor-lib/_latestVersion) 
 [![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15) [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](http://www.apache.org/licenses/LICENSE-2.0) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MAHEncryptorLibrary-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4497)-->
 
-Library for encryption and decryption strings on Android apps and pc Java applications. Library is 100% compatible with Kotlin and Java applications. Contains sample in both Kotlin and Java. Created by Java language in Android Studio.
+Library for encryption and decryption strings on Android apps and pc Java applications. `Library is 100% compatible with Kotlin and Java applications`. Contains sample in both `Kotlin` and `Java`. Created by Java language in Android Studio.
 
 Library has build on IDE `Android Studio` and binaries have added to `jcenter()`  `maven` repository.
 <br>You can check  [jCenter() download statistics](https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics) on this [link](https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics)
@@ -26,7 +26,7 @@ Library has build on IDE `Android Studio` and binaries have added to `jcenter()`
 <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/green_star.png" width="20px"/>  _**Don't forget to start the protect to support us**_
 
 ### PlayStore
-<a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib">MAHEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
+<a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib">SimpleEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
 <br><a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib"><img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/google-play-badge.png" height="90px"/></a> <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/mahencryptor_google_play_url_qr_code.jpg" height="100px"/>
 
 ### Library structure and sample
