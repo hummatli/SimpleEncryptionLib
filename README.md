@@ -1,4 +1,4 @@
-<h1 align="center">MAHEncryptorLibrary</h1>
+<h1 align="center">SimpleEncryptorLib</h1>
 <h4 align="center">Android Library</h4>
 
 <p align="center">
@@ -36,24 +36,24 @@ Library has `MAHEncryptor` class. It has three main static methods:
 
 Look following sample how to use library:
 * For encryption
-```
-	MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("This is sample SecretKeyPhrase");
-	String encrypted = mahEncryptor.encode("This is MAHEncryptorLib java sample");
+```java
+MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("This is sample SecretKeyPhrase");
+String encrypted = mahEncryptor.encode("This is MAHEncryptorLib java sample");
 ```
 * For decryption
-```
-	MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("This is sample SecretKeyPhrase");
-	String decrypted = mahEncryptor.decode("4Vi86K/JL9gKclQahacrKLrEZL6/0vOpS4yPVm1hSLhhDsCMJTyd4A==");
+```java
+MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("This is sample SecretKeyPhrase");
+String decrypted = mahEncryptor.decode("4Vi86K/JL9gKclQahacrKLrEZL6/0vOpS4yPVm1hSLhhDsCMJTyd4A==");
 ```
 
 
 ### Installation manual
 To import library to you project add following lines to project's `build.gradle` file. The last stable version is `1.0.0`
 
-```
-	dependencies {
-    		compile 'com.mobapphome.library:mah-encryptor-lib:1.0.1'
-	}
+```gradle
+dependencies {
+    compile 'com.mobapphome.library:mah-encryptor-lib:1.0.1'
+}
 ```
 
 
