@@ -32,7 +32,7 @@ There is a problem [(Look here)](https://stackoverflow.com/questions/32935783/ja
 
 I have taken Oracle's version and has created this lib. Buy the help of it you can use Oracle's Base64 in Android application. It eases your encryption and decryption process with the same function in Android application and in pure Java application.
 
-##### Package differences  
+#### Package differences  
 * In Oracle's SDK - java.util.Base64 
 * In Android SDK - android.util.Base64
 * In this Lib - com.mobapphome.mahencryptorlib.Base64. 
