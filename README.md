@@ -29,11 +29,15 @@ Library has build on IDE `Android Studio` and binaries have added to `jcenter()`
 I haven't used special algorithm here, 
 
 There is a problem [(Look here)](https://stackoverflow.com/questions/32935783/java-different-results-when-decoding-base64-string-with-java-util-base64-vs-and) with Base64 class in Android and (Oracle)Java SDK. They have both this class but has some little differences in methods and different packages. 
-##### Packages
+
+I have taken Oracle's version and has created this lib. Buy the help of it you can use Oracle's Base64 in Android application. It eases your encryption and decryption process with the same function in Android application and in pure Java application.
+
+_Packages from SDKs_
 * In Oracle's SDK - java.util.Base64 
 * In Android SDK - android.util.Base64
 
-I have taken Oracle's version and has created this lib. Buy the help of it you can use Oracle's Base64 in Android application. It eases your encryption and decryption process with the same function in Android application and in pure Java application.
+_You use this one, it's like Oracle's version but diferent package_
+* com.mobapphome.mahencryptorlib.Base64
 
 ### PlayStore
 <a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib">SimpleEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
