@@ -35,10 +35,7 @@ I have taken Oracle's version and has created this lib. Buy the help of it you c
 #### Package differences  
 * `In Oracle's SDK` - **java.util.Base64** 
 * `In Android SDK` - **android.util.Base64**
-* `In this Lib` - **com.mobapphome.mahencryptorlib.Base64** 
-
-Including library you use this one (com.mobapphome.mahencryptorlib.Base64), it's like Oracle's version but works in Android and in pure Java(Oracle SDK)
-
+* `In this Lib` - **com.mobapphome.mahencryptorlib.Base64** - This is like Oracle's version but works in Android and in pure Java(Oracle SDK)
 
 ### PlayStore
 <a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib">SimpleEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
