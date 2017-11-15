@@ -25,6 +25,16 @@ Library has build on IDE `Android Studio` and binaries have added to `jcenter()`
 
 <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/green_star.png" width="20px"/>  _**Don't forget to start the protect to support us**_
 
+### Problem It Solves
+I haven't used special algorithm here, 
+
+There is a problem [(Look here)](https://stackoverflow.com/questions/32935783/java-different-results-when-decoding-base64-string-with-java-util-base64-vs-and) with Base64 class in Android and (Oracle)Java SDK. They have both this class but has some little differences in methods and different packages. 
+##### Packages
+* In Oracle's SDK - java.util.Base64 
+* In Android SDK - android.util.Base64
+
+I have taken Oracle's version and has created this lib. Buy the help of it you can use Oracle's Base64 in Android application. It eases your encryption and decryption process with the same function in Android application and in pure Java application.
+
 ### PlayStore
 <a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib">SimpleEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
 <br><a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib"><img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/google-play-badge.png" height="90px"/></a> <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/mahencryptor_google_play_url_qr_code.jpg" height="100px"/>
