@@ -74,6 +74,10 @@ String decrypted = simpleEncryptor.decode("Vm1hSLhhDsCMJTyd4A==");
 To import library to you project add following lines to project's `build.gradle` file. The last stable version is `1.1.3`
 
 ```gradle
+repositories {
+    maven { url 'https://dl.bintray.com/hummatli/maven/' }
+}
+
 dependencies {
     compile 'com.mobapphome.library:simple-encryptor-lib:1.1.3'
 }
