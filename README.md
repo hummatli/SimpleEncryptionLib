@@ -42,40 +42,40 @@ I have taken Oracle's version and has created this lib. Buy the help of it you c
 <br><a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib"><img src="https://raw.githubusercontent.com/hummatli/SimpleEncryptorLib/master/imgs/google-play-badge.png" height="90px"/></a> <img src="https://raw.githubusercontent.com/hummatli/SimpleEncryptorLib/master/imgs/mahencryptor_google_play_url_qr_code.jpg" height="100px"/>
 
 ### Library structure and sample
-Library has `MAHEncryptor` class. It has three main static methods:
-* `MAHEncryptor.newInstance("key")`
-* `MAHEncryptor.encode("str for encrytion")`
-* `MAHEncryptor.decode("str for decrytion")`
+Library has `SimpleEncryptor` class. It has three main static methods:
+* `SimpleEncryptor.newInstance("key")`
+* `SimpleEncryptor.encode("str for encrytion")`
+* `SimpleEncryptor.decode("str for decrytion")`
 
 Look following sample how to use library:
 > Encryption in Kotlin:
 ```kotlin
-val mahEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
-val encrypted = mahEncryptor!!.encodeOrReturnNull("Text to encode")
+val simpleEncryptor = SimpleEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
+val encrypted = simpleEncryptor!!.encodeOrReturnNull("Text to encode")
 ```
 > Encryption in Java:
 ```java
-MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
-String encrypted = mahEncryptor.encode("Text to encode");
+SimpleEncryptor simpleEncryptor = SimpleEncryptor.newInstance("Sample SecretKeyPhrase");
+String encrypted = simpleEncryptor.encode("Text to encode");
 ```
 
 > Decryption in Kotlin:
 ```kotlin
-val mahEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
-val decrypted = mahEncryptor.decode("Vm1hSLhhDsCMJTyd4A==")
+val simpleEncryptor = SimpleEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
+val decrypted = simpleEncryptor.decode("Vm1hSLhhDsCMJTyd4A==")
 ```
 > Decryption in Java:
 ```java
-MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
-String decrypted = mahEncryptor.decode("Vm1hSLhhDsCMJTyd4A==");
+SimpleEncryptor simpleEncryptor = SimpleEncryptor.newInstance("Sample SecretKeyPhrase");
+String decrypted = simpleEncryptor.decode("Vm1hSLhhDsCMJTyd4A==");
 ```
 
 ### Installation manual
-To import library to you project add following lines to project's `build.gradle` file. The last stable version is `1.0.0`
+To import library to you project add following lines to project's `build.gradle` file. The last stable version is `1.1.3`
 
 ```gradle
 dependencies {
-    compile 'com.mobapphome.library:mah-encryptor-lib:1.0.1'
+    compile 'com.mobapphome.library:simple-encryptor-lib:1.1.3'
 }
 ```
 
@@ -97,8 +97,8 @@ Thats all. If you have any probelm with setting library please let me know. Writ
 [Sattar Hummatli](https://www.linkedin.com/in/hummatli) - settarxan@gmail.com
 
 ### Other libraries by developer
-* [![MAHAndroidUpdater](https://img.shields.io/badge/GitHUB-MAHAndroidUpdater-green.svg)](https://github.com/hummatli/MAHAndroidUpdater) - Android update checker library. Library for notifing update information to installed android apps on android device.  
-* [![MAHAds](https://img.shields.io/badge/GitHUB-MAHAds-green.svg)](https://github.com/hummatli/MAHAds) - Library for advertisement own apps through your other apps.
+* [![AndroidAppUpdater](https://img.shields.io/badge/GitHUB-AndroidAppUpdater-green.svg)](https://github.com/hummatli/AndroidAppUpdater) - Android update checker library. Library for notifing update information to installed android apps on android device.  
+* [![AppCrossPromoter](https://img.shields.io/badge/GitHUB-AppCrossPromoter-green.svg)](https://github.com/hummatli/AppCrossPromoter) - Library for advertisement own apps through your other apps.
 
 ### License
 Copyright 2017  - <a href="https://www.linkedin.com/in/hummatli">Sattar Hummatli</a>   
