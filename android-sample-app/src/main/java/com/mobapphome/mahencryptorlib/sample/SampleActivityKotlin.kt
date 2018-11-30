@@ -33,7 +33,7 @@ class SampleActivityKotlin : AppCompatActivity() {
 
         val forkMeImg = ContextCompat.getDrawable(this, R.drawable.forkme_green)
         // setting the opacity (alpha)
-        forkMeImg.alpha = 180
+        forkMeImg?.alpha = 180
         // setting the images on the ImageViews
         ivForkMeOnGithub.setImageDrawable(forkMeImg)
 
