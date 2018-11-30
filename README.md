@@ -2,28 +2,28 @@
 <h4 align="center">Android Library</h4>
 
 <p align="center">
-  <a target="_blank" href="https://bintray.com/hummatli/maven/mah-encryptor-lib/_latestVersion"><img src="https://api.bintray.com/packages/hummatli/maven/mah-encryptor-lib/images/download.svg"></a>
+  <a target="_blank" href="https://bintray.com/hummatli/maven/simple-encryptor-lib/_latestVersion"><img src="https://api.bintray.com/packages/hummatli/maven/simple-encryptor-lib/images/download.svg"></a>
   <a target="_blank" href="https://android-arsenal.com/api?level=15"><img src="https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat"></a>
   <a target="_blank" href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000"></a>
-  <a target="_blank" href="http://android-arsenal.com/details/1/4497"><img src="https://img.shields.io/badge/Android%20Arsenal-MAHEncryptorLibrary-brightgreen.svg?style=flat" /></a>
+  <a target="_blank" href="http://android-arsenal.com/details/1/4497"><img src="https://img.shields.io/badge/Android%20Arsenal-SimpleEncryptorLibrary-brightgreen.svg?style=flat" /></a>
 </p>
 
-<p align="center">Free, open source, third party Android library and PC library for encryption and decryption strings on Android apps and pc Java applications.  Library is 100% compatible with Kotlin and Java applications. Contains sample in both Kotlin and Java. Check out the <a href="https://github.com/hummatli/MAHEncryptorLib/wiki">wiki</a>.</p>
+<p align="center">Free, open source, third party Android library and PC library for encryption and decryption strings on Android apps and pc Java applications.  Library is 100% compatible with Kotlin and Java applications. Contains sample in both Kotlin and Java. Check out the <a href="https://github.com/hummatli/SimpleEncryptorLib/wiki">wiki</a>.</p>
 
 <p align="left">
-<img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/main_activity.png" width="200px"/>
+<img src="https://raw.githubusercontent.com/hummatli/SimpleEncryptorLib/master/imgs/main_activity.png" width="200px"/>
 </p>
-<!--[ ![Download](https://api.bintray.com/packages/hummatli/maven/mah-encryptor-lib/images/download.svg) ](https://bintray.com/hummatli/maven/mah-encryptor-lib/_latestVersion) 
-[![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15) [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](http://www.apache.org/licenses/LICENSE-2.0) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MAHEncryptorLibrary-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4497)-->
+<!--[ ![Download](https://api.bintray.com/packages/hummatli/maven/simple-encryptor-lib/images/download.svg) ](https://bintray.com/hummatli/maven/simple-encryptor-lib/_latestVersion) 
+[![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15) [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](http://www.apache.org/licenses/LICENSE-2.0) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SimpleEncryptorLibrary-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4497)-->
 
 Library for encryption and decryption strings on Android apps and pc Java applications. `Library is 100% compatible with Kotlin and Java applications`. Contains sample in both `Kotlin` and `Java`. Created by Java language in Android Studio.
 
 Library has build on IDE `Android Studio` and binaries have added to `jcenter()`  `maven` repository.
-<br>You can check  [jCenter() download statistics](https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics) on this [link](https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics)
+<br>You can check  [jCenter() download statistics](https://bintray.com/hummatli/maven/simple-encryptor-lib#statistics) on this [link](https://bintray.com/hummatli/maven/simple-encryptor-lib#statistics)
 
-* [jCenter() download statistics](https://bintray.com/hummatli/maven/mah-encryptor-lib#statistics)
+* [jCenter() download statistics](https://bintray.com/hummatli/maven/simple-encryptor-lib#statistics)
 
-<img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/green_star.png" width="20px"/>  _**Don't forget to start the protect to support us**_
+<img src="https://raw.githubusercontent.com/hummatli/SimpleEncryptorLib/master/imgs/green_star.png" width="20px"/>  _**Don't forget to star the protect to support us**_
 
 ### Problem It Solves
 I haven't used special algorithm here, 
@@ -35,11 +35,11 @@ I have taken Oracle's version and has created this lib. Buy the help of it you c
 #### Package differences  
 * `In Oracle's SDK` - **java.util.Base64** 
 * `In Android SDK` - **android.util.Base64**
-* `In this Lib` - **simpleencryptorlib.Base64** - This is like Oracle's version but works in Android and in pure Java(Oracle SDK)
+* `In this Lib` - **com.mobapphome.simpleencryptorlib.Base64** - This is like Oracle's version but works in Android and in pure Java(Oracle SDK)
 
 ### PlayStore
-<a href="https://play.google.com/store/apps/details?id=simpleencryptorlib">SimpleEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
-<br><a href="https://play.google.com/store/apps/details?id=simpleencryptorlib"><img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/google-play-badge.png" height="90px"/></a> <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/mahencryptor_google_play_url_qr_code.jpg" height="100px"/>
+<a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib">SimpleEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
+<br><a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib"><img src="https://raw.githubusercontent.com/hummatli/SimpleEncryptorLib/master/imgs/google-play-badge.png" height="90px"/></a> <img src="https://raw.githubusercontent.com/hummatli/SimpleEncryptorLib/master/imgs/mahencryptor_google_play_url_qr_code.jpg" height="100px"/>
 
 ### Library structure and sample
 Library has `MAHEncryptor` class. It has three main static methods:
@@ -50,24 +50,24 @@ Library has `MAHEncryptor` class. It has three main static methods:
 Look following sample how to use library:
 > Encryption in Kotlin:
 ```kotlin
-val simpleEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
-val encrypted = simpleEncryptor!!.encodeOrReturnNull("Text to encode")
+val mahEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
+val encrypted = mahEncryptor!!.encodeOrReturnNull("Text to encode")
 ```
 > Encryption in Java:
 ```java
-MAHEncryptor simpleEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
-String encrypted = simpleEncryptor.encode("Text to encode");
+MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
+String encrypted = mahEncryptor.encode("Text to encode");
 ```
 
 > Decryption in Kotlin:
 ```kotlin
-val simpleEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
-val decrypted = simpleEncryptor.decode("Vm1hSLhhDsCMJTyd4A==")
+val mahEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
+val decrypted = mahEncryptor.decode("Vm1hSLhhDsCMJTyd4A==")
 ```
 > Decryption in Java:
 ```java
-MAHEncryptor simpleEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
-String decrypted = simpleEncryptor.decode("Vm1hSLhhDsCMJTyd4A==");
+MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
+String decrypted = mahEncryptor.decode("Vm1hSLhhDsCMJTyd4A==");
 ```
 
 ### Installation manual
