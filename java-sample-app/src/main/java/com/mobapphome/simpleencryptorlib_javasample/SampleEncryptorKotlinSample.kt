@@ -1,6 +1,6 @@
-package com.mobapphome.mahencryptorlib_javasample
+package com.mobapphome.simpleencryptorlib_javasample
 
-import com.mobapphome.mahencryptorlib.MAHEncryptor
+import com.mobapphome.simpleencryptorlib.SimpleEncryptor
 
 /**
  * This is MAHEncryptorLib sample created test encryptor lib on non-Android java programs.
@@ -8,7 +8,7 @@ import com.mobapphome.mahencryptorlib.MAHEncryptor
  */
 fun main(arg: Array<String>) {
     //Your key phrase mus be at least 18 character other through exeption
-    val mahEncryptor = MAHEncryptor.newInstanceOrRetunNull("This is sample SecretKeyPhrase")
+    val mahEncryptor = SimpleEncryptor.newInstanceOrRetunNull("This is sample SecretKeyPhrase")
 
     val strForEncryption = "This is MAHEncryptorLib java sample"
     val encrypted = mahEncryptor!!.encodeOrReturnNull(strForEncryption)

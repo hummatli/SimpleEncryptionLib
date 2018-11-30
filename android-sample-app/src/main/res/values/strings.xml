@@ -5,8 +5,8 @@
         \nIt demonstrates simple action enchrypt string and dechrypt it to original case</string>
 
     <string name="content_txt2">
-        Library is 100% compatible with Kotlin and Java applications. Contains sample in both Kotlin and Java.
-        Created by Java language in Android Studio.
+        The library is 100% compatible with Kotlin and Java applications. It has been created with Java language in
+        the Android Studio and contains two samples in both Kotlin and Java.
         </string>
 
     <string name="txt_dechrypt">Dechrypt</string>

@@ -1,4 +1,4 @@
-package com.mobapphome.mahencryptorlib.sample;
+package com.mobapphome.simpleencryptorlib.sample;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -10,9 +10,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-import com.mobapphome.mahencryptorlib.Constants;
-import com.mobapphome.mahencryptorlib.MAHEncryptor;
-import com.mobapphome.mahencryptorlib.R;
+import com.mobapphome.simpleencryptorlib.Constants;
+import com.mobapphome.simpleencryptorlib.SimpleEncryptor;
+import com.mobapphome.simpleencryptorlib.R;
 
 public class SampleActivityJava extends AppCompatActivity implements View.OnClickListener {
 
@@ -70,7 +70,7 @@ public class SampleActivityJava extends AppCompatActivity implements View.OnClic
                 }
 
                 if (view.getId() == R.id.btnEnchrypt) {
-                    MAHEncryptor mahEncryptor = MAHEncryptor.newInstance(keyPhraseTxt);
+                    SimpleEncryptor simpleEncryptor = SimpleEncryptor.newInstance(keyPhraseTxt);
 
                     String originaltxt = editTextOriginal.getText().toString().trim();
                     if (originaltxt.isEmpty()) {
@@ -82,10 +82,10 @@ public class SampleActivityJava extends AppCompatActivity implements View.OnClic
                                 .show();
                         return;
                     }
-                    editTextEnchrypted.setText(mahEncryptor.encode(originaltxt));
+                    editTextEnchrypted.setText(simpleEncryptor.encode(originaltxt));
 
                 } else if (view.getId() == R.id.btnDechrypt) {
-                    MAHEncryptor mahEncryptor = MAHEncryptor.newInstance(keyPhraseTxt);
+                    SimpleEncryptor simpleEncryptor = SimpleEncryptor.newInstance(keyPhraseTxt);
 
                     String enchryptedTxt = editTextEnchrypted.getText().toString().trim();
                     if (enchryptedTxt.isEmpty()) {
@@ -97,7 +97,7 @@ public class SampleActivityJava extends AppCompatActivity implements View.OnClic
                                 .show();
                         return;
                     }
-                    editTextOriginal.setText(mahEncryptor.decode(enchryptedTxt));
+                    editTextOriginal.setText(simpleEncryptor.decode(enchryptedTxt));
                 }
             } catch (Exception e) {
                 new AlertDialog.Builder(this)

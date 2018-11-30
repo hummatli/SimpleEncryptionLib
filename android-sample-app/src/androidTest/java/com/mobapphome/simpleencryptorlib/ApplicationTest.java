@@ -1,4 +1,4 @@
-package com.mobapphome.mahencryptorlib;
+package com.mobapphome.simpleencryptorlib;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

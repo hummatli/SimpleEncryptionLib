@@ -2,19 +2,19 @@ apply plugin: 'java'
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'mah-encryptor-lib'
+    bintrayName = 'simple-encryptor-lib'
 
     publishedGroupId = 'com.mobapphome.library'
-    libraryName = 'MAHEncryptorLib'
-    artifact = 'mah-encryptor-lib'
+    libraryName = 'SimpleEncryptorLib'
+    artifact = 'simple-encryptor-lib'
 
-    libraryDescription = 'MAHEncrptorLib is library for encrypting string and decrypting it back. ' +
+    libraryDescription = 'SimpleEncrptorLib is a library to encrypt strings and decrypt them back again. ' +
             'It can be used on Android and raw Java projects'
 
-    siteUrl = 'https://github.com/hummatli/MAHEncryptorLib'
-    gitUrl = 'https://github.com/hummatli/MAHEncryptorLib.git'
+    siteUrl = 'https://github.com/hummatli/SimpleEncryptorLib'
+    gitUrl = 'https://github.com/hummatli/SimpleEncryptorLib.git'
 
-    libraryVersion = '1.0.1'
+    libraryVersion = '1.1.3'
 
     developerId = 'hummatli'
     developerName = 'Sattar Hummatli'

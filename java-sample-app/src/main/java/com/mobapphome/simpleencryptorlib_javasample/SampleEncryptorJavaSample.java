@@ -1,6 +1,6 @@
-package com.mobapphome.mahencryptorlib_javasample;
+package com.mobapphome.simpleencryptorlib_javasample;
 
-import com.mobapphome.mahencryptorlib.MAHEncryptor;
+import com.mobapphome.simpleencryptorlib.SimpleEncryptor;
 
 /**
  * This is MAHEncryptorLib sample created test encryptor lib on non-Android java programs.
@@ -9,13 +9,13 @@ import com.mobapphome.mahencryptorlib.MAHEncryptor;
 public class SampleEncryptorJavaSample {
     static public void main(String[] arg) {
         //Your key phrase mus be at least 18 character other through exeption
-        MAHEncryptor mahEncryptor = MAHEncryptor.newInstanceOrRetunNull("This is sample SecretKeyPhrase");
+        SimpleEncryptor simpleEncryptor = SimpleEncryptor.newInstanceOrRetunNull("This is sample SecretKeyPhrase");
 
         String strForEncryption = "This is MAHEncryptorLib java sample";
-        String encrypted = mahEncryptor.encodeOrReturnNull(strForEncryption);
+        String encrypted = simpleEncryptor.encodeOrReturnNull(strForEncryption);
         System.out.println("encrypted = " + encrypted);
 
-        String decrypted = mahEncryptor.decodeOrReturnNull(encrypted);
+        String decrypted = simpleEncryptor.decodeOrReturnNull(encrypted);
         System.out.println("decrypted = " + decrypted);
     }
 }

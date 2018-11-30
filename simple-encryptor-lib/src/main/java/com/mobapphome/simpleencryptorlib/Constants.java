@@ -1,4 +1,4 @@
-package com.mobapphome.mahencryptorlib;
+package com.mobapphome.simpleencryptorlib;
 
 /**
  * Created by settar on 2/6/17.

@@ -1,4 +1,4 @@
-package com.mobapphome.mahencryptorlib.sample
+package com.mobapphome.simpleencryptorlib.sample
 
 import android.content.Intent
 import android.net.Uri
@@ -6,12 +6,10 @@ import android.os.Bundle
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
-import android.view.View
-import android.widget.ImageView
 
-import com.mobapphome.mahencryptorlib.Constants
-import com.mobapphome.mahencryptorlib.MAHEncryptor
-import com.mobapphome.mahencryptorlib.R
+import com.mobapphome.simpleencryptorlib.Constants
+import com.mobapphome.simpleencryptorlib.SimpleEncryptor
+import com.mobapphome.simpleencryptorlib.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class SampleActivityKotlin : AppCompatActivity() {
@@ -43,7 +41,7 @@ class SampleActivityKotlin : AppCompatActivity() {
         }
         btnDechrypt.setOnClickListener {
             checkKeyPhrase { k ->
-                val mahEncryptor = MAHEncryptor.newInstance(k)
+                val mahEncryptor = SimpleEncryptor.newInstance(k)
 
                 val enchryptedTxt = etEnchryptedTxt.text.toString().trim { it <= ' ' }
                 if (enchryptedTxt.isEmpty()) {
@@ -62,7 +60,7 @@ class SampleActivityKotlin : AppCompatActivity() {
 
         btnEnchrypt.setOnClickListener {
             checkKeyPhrase { k ->
-                val mahEncryptor = MAHEncryptor.newInstance(k)
+                val mahEncryptor = SimpleEncryptor.newInstance(k)
 
                 val originaltxt = etOriginalTxt.text.toString().trim { it <= ' ' }
                 if (originaltxt.isEmpty()) {

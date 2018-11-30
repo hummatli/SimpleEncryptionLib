@@ -1,4 +1,4 @@
-package com.mobapphome.mahencryptorlib;
+package com.mobapphome.simpleencryptorlib;
 
 import java.io.UnsupportedEncodingException;
 import java.security.InvalidKeyException;
@@ -14,18 +14,18 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
 
 /**
- * This is MAHEncryptor class. Main class of MAHEncryptorLib.
+ * This is SimpleEncryptor class. Main class of MAHEncryptorLib.
  * Created by Sattar Hummatli on 8/5/16.
  */
 
-public class MAHEncryptor {
+public class SimpleEncryptor {
 
     private SecretKey key;
     Base64.Encoder base64encoder;
     Base64.Decoder base64decoder;
 
 
-    private MAHEncryptor(String yourSecretKeyPhrase) throws UnsupportedEncodingException, InvalidKeyException, NoSuchAlgorithmException, InvalidKeySpecException {
+    private SimpleEncryptor(String yourSecretKeyPhrase) throws UnsupportedEncodingException, InvalidKeyException, NoSuchAlgorithmException, InvalidKeySpecException {
         DESKeySpec keySpec = new DESKeySpec(yourSecretKeyPhrase.getBytes("UTF8"), 10);
         SecretKeyFactory keyFactory = SecretKeyFactory.getInstance("DES");
         key = keyFactory.generateSecret(keySpec);
@@ -34,26 +34,26 @@ public class MAHEncryptor {
     }
 
     /**
-     * Initializer of MAHEncryptor
+     * Initializer of SimpleEncryptor
      * @param yourSecretKeyPhrase
-     * @return MAHEncryptor object or throughs exception
+     * @return SimpleEncryptor object or throughs exception
      * @throws InvalidKeySpecException
      * @throws NoSuchAlgorithmException
      * @throws InvalidKeyException
      * @throws UnsupportedEncodingException
      */
-    public static MAHEncryptor newInstance(String yourSecretKeyPhrase) throws InvalidKeySpecException, NoSuchAlgorithmException, InvalidKeyException, UnsupportedEncodingException {
-        return new MAHEncryptor(yourSecretKeyPhrase);
+    public static SimpleEncryptor newInstance(String yourSecretKeyPhrase) throws InvalidKeySpecException, NoSuchAlgorithmException, InvalidKeyException, UnsupportedEncodingException {
+        return new SimpleEncryptor(yourSecretKeyPhrase);
     }
 
     /**
-     * Initializer of MAHEncryptor
+     * Initializer of SimpleEncryptor
      * @param yourSecretKeyPhrase
-     * @return MAHEncryptor object or null if throughs exception
+     * @return SimpleEncryptor object or null if throughs exception
      */
-    public static MAHEncryptor newInstanceOrRetunNull(String yourSecretKeyPhrase){
+    public static SimpleEncryptor newInstanceOrRetunNull(String yourSecretKeyPhrase){
         try {
-            return new MAHEncryptor(yourSecretKeyPhrase);
+            return new SimpleEncryptor(yourSecretKeyPhrase);
         } catch (Exception e) {
             e.printStackTrace();
             return null;

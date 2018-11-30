@@ -35,11 +35,11 @@ I have taken Oracle's version and has created this lib. Buy the help of it you c
 #### Package differences  
 * `In Oracle's SDK` - **java.util.Base64** 
 * `In Android SDK` - **android.util.Base64**
-* `In this Lib` - **com.mobapphome.mahencryptorlib.Base64** - This is like Oracle's version but works in Android and in pure Java(Oracle SDK)
+* `In this Lib` - **simpleencryptorlib.Base64** - This is like Oracle's version but works in Android and in pure Java(Oracle SDK)
 
 ### PlayStore
-<a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib">SimpleEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
-<br><a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib"><img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/google-play-badge.png" height="90px"/></a> <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/mahencryptor_google_play_url_qr_code.jpg" height="100px"/>
+<a href="https://play.google.com/store/apps/details?id=simpleencryptorlib">SimpleEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
+<br><a href="https://play.google.com/store/apps/details?id=simpleencryptorlib"><img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/google-play-badge.png" height="90px"/></a> <img src="https://raw.githubusercontent.com/hummatli/MAHEncryptorLib/master/imgs/mahencryptor_google_play_url_qr_code.jpg" height="100px"/>
 
 ### Library structure and sample
 Library has `MAHEncryptor` class. It has three main static methods:
@@ -50,24 +50,24 @@ Library has `MAHEncryptor` class. It has three main static methods:
 Look following sample how to use library:
 > Encryption in Kotlin:
 ```kotlin
-val mahEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
-val encrypted = mahEncryptor!!.encodeOrReturnNull("Text to encode")
+val simpleEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
+val encrypted = simpleEncryptor!!.encodeOrReturnNull("Text to encode")
 ```
 > Encryption in Java:
 ```java
-MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
-String encrypted = mahEncryptor.encode("Text to encode");
+MAHEncryptor simpleEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
+String encrypted = simpleEncryptor.encode("Text to encode");
 ```
 
 > Decryption in Kotlin:
 ```kotlin
-val mahEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
-val decrypted = mahEncryptor.decode("Vm1hSLhhDsCMJTyd4A==")
+val simpleEncryptor = MAHEncryptor.newInstanceOrRetunNull("Sample SecretKeyPhrase")
+val decrypted = simpleEncryptor.decode("Vm1hSLhhDsCMJTyd4A==")
 ```
 > Decryption in Java:
 ```java
-MAHEncryptor mahEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
-String decrypted = mahEncryptor.decode("Vm1hSLhhDsCMJTyd4A==");
+MAHEncryptor simpleEncryptor = MAHEncryptor.newInstance("Sample SecretKeyPhrase");
+String decrypted = simpleEncryptor.decode("Vm1hSLhhDsCMJTyd4A==");
 ```
 
 ### Installation manual

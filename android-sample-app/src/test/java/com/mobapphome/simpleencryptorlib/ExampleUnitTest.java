@@ -1,4 +1,4 @@
-package com.mobapphome.mahencryptorlib;
+package com.mobapphome.simpleencryptorlib;
 
 import org.junit.Test;
 

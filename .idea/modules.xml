@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SimpleEncryptorLib.iml" filepath="$PROJECT_DIR$/SimpleEncryptorLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-sample-app/android-sample-app.iml" filepath="$PROJECT_DIR$/android-sample-app/android-sample-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-sample-app/java-sample-app.iml" filepath="$PROJECT_DIR$/java-sample-app/java-sample-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-encryptor-lib/simple-encryptor-lib.iml" filepath="$PROJECT_DIR$/simple-encryptor-lib/simple-encryptor-lib.iml" />
     </modules>
   </component>
 </project>
