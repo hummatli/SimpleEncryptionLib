@@ -8,7 +8,7 @@
   <a target="_blank" href="http://android-arsenal.com/details/1/4497"><img src="https://img.shields.io/badge/Android%20Arsenal-SimpleEncryptorLibrary-brightgreen.svg?style=flat" /></a>
 </p>
 
-<p align="center">Free, open source, third party Android library and PC library for encryption and decryption strings on Android apps and pc Java applications.  Library is 100% compatible with Kotlin and Java applications. Contains sample in both Kotlin and Java. Check out the <a href="https://github.com/hummatli/SimpleEncryptorLib/wiki">wiki</a>.</p>
+<p align="center">Free, open source, third party Android library and PC library for encryption and decryption strings on Android apps and pc Java applications.  Library is 100% compatible with Kotlin and Java applications. Contains sample in both Kotlin and Java. Check out the <a href="https://github.com/hummatli/SimpleEncryptorLib/wiki">wiki</a>. To support, <a href="https://www.buymeacoffee.com/hummatli" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></p>
 
 <p align="left">
 <img src="https://raw.githubusercontent.com/hummatli/SimpleEncryptorLib/master/imgs/main_activity.png" width="200px"/>
