@@ -3,7 +3,11 @@
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
+/.idea/misc.xml
+/.idea/modules.xml
 /.idea/caches
 .DS_Store
 /build
 /captures
+
+/android-sample-app/signing_confs/conf.gradle
