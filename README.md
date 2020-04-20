@@ -37,9 +37,8 @@ I have taken Oracle's version and has created this lib. Buy the help of it you c
 * `In Android SDK` - **android.util.Base64**
 * `In this Lib` - **com.mobapphome.simpleencryptorlib.Base64** - This is like Oracle's version but works in Android and in pure Java(Oracle SDK)
 
-### PlayStore
-<a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib">SimpleEncryptorLibrary - Sample</a> app has published on Google PlayStore. You can easly test library functionality with downloading it.
-<br><a href="https://play.google.com/store/apps/details?id=com.mobapphome.mahencryptorlib"><img src="https://raw.githubusercontent.com/hummatli/SimpleEncryptorLib/master/imgs/google-play-badge.png" height="90px"/></a> <img src="https://raw.githubusercontent.com/hummatli/SimpleEncryptorLib/master/imgs/mahencryptor_google_play_url_qr_code.jpg" height="100px"/>
+### Demo App
+Download the demo app from this link - <a href="https://github.com/hummatli/SimpleEncryptionLib/releases/download/v.1.0.1/DemoApp-SimpleEncryptorLib.apk">Demo App</a>. You can easly test the lib's functionality.
 
 ### Library structure and sample
 Library has `SimpleEncryptor` class. It has three main static methods:
